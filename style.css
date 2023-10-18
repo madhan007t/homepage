@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Onest', sans-serif;
+}
+.sign{
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 2rem;
+    color: #000;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+    margin-left: 00px;
+    
+    
+}
+.login{
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 2rem;
+    color: #000;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;    
+    margin-left: 200px;
+
+}
+.login:hover{
+    color: orange;
+}
+.page{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 60%;
+
+}
+.logo{
+    width: 200px;
+}
+.change_content::after{
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: rgb(0, 0, 0);
+}
+@keyframes changetext{
+    0%{ content:"Hungry?";}
+    20%{ content: "unexpected guests?";}
+    40%{content: " Cooking gone wrong?";}
+    60%{content: "Movie Marathon?";}
+    80%{content: "Game night?";}
+    100%{ content: "Late night at office?";}
+}
+.input{
+    border-color: #fc8019;
+    width: 50%;
+    height: 60px;
+    
+
+}
+.food{
+    width: 20%;
+    height: 60px;
+    background-color: #fc8019;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+
+}
+.find{
+    display: flex;
+}
+.header{
+    display: flex;
+    height: 50%
+}
+.image{
+    margin-right: 10px;
+    height: 600px;
+}
+.main{ 
+    background-color: #2b1e16;
+    
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.img1 h4{
+    
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    color: #fff;
+}
+.img1 p{
+    font-size: 15px;
+    width: 260px;
+    margin-top: 10px;
+    color: #e0cbc1;
+    line-height: 1.3;
+}
+.img1{
+    text-align: center;
+    justify-content: center;
+}
+.spart1 h5{
+    font-size: 40px;
+    font-weight: 600;
+}
+.spart1{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.spart1 img{
+               cursor: pointer;
+               width: 200px;
+}
+.spart2 img{
+    height: 500px;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+}
+.footercols{
+     background-color: #000;
+     display: flex;
+     justify-content: space-between;
+     
+     
+    
+}
+.part1{
+    margin-left: 100px;
+        
+}
+.footercols ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.footercols ul li{
+    list-style: none;
+}
+.footercols li{
+    line-height: 2.0;
+}
+.footercols img{
+    width: 200px;
+    height: 70px;
+    border-color: #fff;
+}
+.footer1{
+    background-color: #000;
+    color: #fff;
+}
+.lastfooter{
+    background-color: #000;
+    
+}
+.last{
+     margin-left: 120px;
+     font-size: 20px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.face{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.face img{
+        width: 30px;    
+}
